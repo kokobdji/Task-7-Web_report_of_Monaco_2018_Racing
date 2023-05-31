@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-<img src="web_reporter/static/img/readme.png" alt="Logo" width="80" height="80">
+
 
 
   <h3 align="center">
@@ -11,17 +11,6 @@ Task 7 - Web report of Monaco 2018 Racing</h3>
     A web application with Flask framework and report package from Task-6.
   </p>
 </div>
-
-
-## About The Project
-<figure>
-    <img src="web_reporter/static/img/main.png">
-    <figcaption> Main Page</figcaption>
-    <img src="web_reporter/static/img/drivers_info.png">
-    <figcaption>Drivers Info Page</figcaption>
-    <img src="web_reporter/static/img/driver_info.png">
-    <figcaption>Driver Info Page</figcaption>
-</figure>
 
 ### Built With
 
