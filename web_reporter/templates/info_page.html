@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{ driver.name }}</title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='img/favicon.ico') }}"/>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+<ul>
+    <li><a href="{{ url_for('main.common_statistic') }}">Main page</a></li>
+    <li><a href="{{ url_for('main.driver_stats', order='asc') }}">Driver rank asc</a></li>
+    <li><a href="{{ url_for('main.driver_stats', order='desc') }}">Driver rank desc</a></li>
+</ul>
+<h3 align="center">Name of driver: {{ driver.name }}. Racing team: {{ driver.team }}. Best time: {{ driver.time }}</h3>
+</body>
+</html>
